@@ -1,0 +1,85 @@
+
+/* Page Style */
+
+.bg { 
+  background: url(../images/kent-bg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height:917px;
+}
+#jump {
+    margin-top: 35em;
+    position: absolute;
+    right: 50%;
+	}
+.menu {
+	background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 72px;
+    position: fixed;
+    top: 2px;
+    right: 0;
+    cursor: pointer;}
+nav {
+	position:fixed;
+	top:0;
+	text-align:center;
+	text-transform: uppercase;
+	color:black;
+	background:white;
+	border-bottom:5px grey solid;
+	width: 100%;
+	}
+nav ul {
+	list-style-type: none;
+	display:inline-block;
+	}
+	
+	header {
+	text-align:center;
+  position: relative;
+  top: 30%;
+  transform: translateY(-20%)
+	}
+headera {
+    height: 90%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+	color:white;
+	}
+#test{
+	margin-top:1080px;
+	background:white;
+	height:400px;
+	width:100%;
+	}
+footer {
+	border-top: #ccc solid 2px;
+	text-align:center;
+	padding:5px;
+	clear:both;
+	border-top:blue 2px solid;
+	background:white;
+	
+}
+
+/* Element Styles */
+@media (min-width: 600px) { h1 {
+	font-size:162px;
+	font-family:helvetica;
+	color:white;
+	text-shadow: 2px 2px 5px black;
+	}
+}
+h4 {
+    color: white;
+    margin: -40px;
+    text-transform: uppercase;
+    font-size: 29px;
+    text-shadow: 2px 2px 2px black;	
+	}
+.highlight {
+	color: #40c6f1;	
+}
